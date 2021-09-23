@@ -10,7 +10,7 @@ class AddTodos extends Component
     public $item;
 
     protected $rules = [
-        'item' => 'required'
+        'item' => 'required|min:5'
     ];
 
     protected $validationAttributes = [
